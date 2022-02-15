@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "PUBLIC_URL=/studiokail.space BUILD_PATH=./docs react-scripts build",
+    "build": "PUBLIC_URL=/studiokail.space BUILDs_PATH=./docs react-scripts build --release",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
