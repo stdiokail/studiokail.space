@@ -1,6 +1,6 @@
 {
   "name": "stdiokail-site",
-  "homepage": "http://www.studiokail.space/",
+  "homepage": "http://studiokail.space/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,8 +15,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "main -d build",
     "start": "react-scripts start",
-    "build": "BUILDs_PATH=./docs react-scripts build --release",
+    "build": "react-scripts build --release",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
