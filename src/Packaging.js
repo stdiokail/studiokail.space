@@ -5,8 +5,6 @@ import woodco3 from './imgportfolio/packaging/woodco3.png'
 import lucciola1 from './imgportfolio/packaging/lucciola1.png'
 import lucciola2 from './imgportfolio/packaging/lucciola2.png'
 import lucciola3 from './imgportfolio/packaging/lucciola3.png'
-import mimi2 from './imgportfolio/packaging/mimi2.png'
-import mimi1 from './imgportfolio/packaging/mimi1.png'
 import liang1 from './imgportfolio/packaging/liang1.png'
 import liang2 from './imgportfolio/packaging/liang2.png'
 import liang3 from './imgportfolio/packaging/liang3.png'
@@ -56,7 +54,7 @@ export default function Packaging() {
             </div>
             <div class = "packaging-container">
             <div class = "grid grid-cols-1 all-image">
-                <img src={lucciola1} alt={"lucciola-full"} style = {{padding: 50}}/>
+                <img src={lucciola1} alt={"c-full"} style = {{padding: 50}}/>
             </div>
            </div>
         <div class = "grid grid-cols-1 md:grid-cols-2 all-image">
