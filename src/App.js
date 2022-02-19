@@ -13,7 +13,7 @@ export default function App() {
             <div class = "grid grid-cols-2">
               <div> <Link to ="./"> <button class = "basic-button" style = {{marginRight: 30}}> HOME </button> </Link>  </div>
               <div class = "navLinks">
-              <button class = "basic-button"  onClick={(e) => {e.preventDefault(); window.open('https://www.fiverr.com/kailstudio');}}> PLACE ORDER </button> <br/>
+              <button class = "basic-button"  onClick={(e) => {e.preventDefault(); window.open('https://www.fiverr.com/kailstudio');}}> ORDER </button> <br/>
               </div>
             </div>
           </nav>

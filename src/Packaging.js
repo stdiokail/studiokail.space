@@ -1,4 +1,4 @@
-import newlogo from './static/newlogo.svg'
+import logobanner from './static/logo-banner.svg'
 import woodco1 from './imgportfolio/packaging/woodco1.png'
 import woodco2 from './imgportfolio/packaging/woodco2.png'
 import woodco3 from './imgportfolio/packaging/woodco3.png'
@@ -10,16 +10,17 @@ import liang2 from './imgportfolio/packaging/liang2.png'
 import liang3 from './imgportfolio/packaging/liang3.png'
 import no91 from './imgportfolio/packaging/no91.png'
 import no92 from './imgportfolio/packaging/no92.png'
-
-
+import { HashRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 export default function Packaging() {
+    
+
     return (
     <div>
 
         <div class = "grid grid-cols-1">
-            <div class = "logo">
-            <img src={newlogo} alt={"logo"} style = {{height: 300}} class = "center"/> 
+            <div class = "logo-container">
+            <img src={logobanner} alt={"logo"} style = {{height: 300}} class = "center"/> 
             </div>
         </div>
 
@@ -100,6 +101,12 @@ export default function Packaging() {
             <div class = "grid grid-cols-1 all-image">
                 <img src={no92} alt={"no9-full"} style = {{padding: 50}}/>
             </div>
+           </div>
+
+           <div class = "navigation-portfolios grid grid-cols-3" style = {{marginTop:-15}}>
+           <div> <Link to ="./"> <button class = "pnav-button" style = {{marginRight: 30}}> HOME </button> </Link>  </div>
+           <div> <Link to ="./motion"> <button class = "pnav-button" style = {{marginRight: 30}}> MOTION </button> </Link>  </div>
+           <div> <Link to ="./webdev"> <button class = "pnav-button" style = {{marginRight: 30}}> WEB DEVELOPMENT </button> </Link>  </div>
            </div>
 
     </div>    

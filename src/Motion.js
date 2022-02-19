@@ -1,4 +1,4 @@
-import newlogo from './static/newlogo.svg'
+import logobanner from './static/logo-banner.svg'
 import youtuben from './static/youtuben.svg'
 import geo1 from './imgportfolio/motion/geo1.gif'
 import geo2 from './imgportfolio/motion/geo1.gif'
@@ -9,6 +9,8 @@ import aamotion from './dynamic/aamotion.gif'
 import aapackaging from './dynamic/aapackaging.gif'
 import lucciolaui from './imgportfolio/motion/lucciolaui.gif'
 import ReactPlayer from 'react-player'
+import { HashRouter as Router, Route, Switch, Link } from 'react-router-dom';
+
 
 
 export default function Motion() {
@@ -16,7 +18,7 @@ export default function Motion() {
   <div>
         <div class = "grid grid-cols-1">
             <div class = "logo">
-            <img src={newlogo} alt={"logo"} style = {{height: 300}} class = "center"/> 
+            <img src={logobanner} alt={"logo"} style = {{height: 300}} class = "center"/> 
             </div>
         </div>
 
@@ -42,7 +44,7 @@ export default function Motion() {
                 />
             </div>
 
-<div class = "grid grid-cols-1 md:grid-cols-2 motion-container">
+       <div class = "grid grid-cols-1" >
             <div class = "portfolio-description m-auto">
                 <div class = "grid grid-cols-2">
                 <div><p class = "portfolio-card-title">LIANG ANIMATED LOGO</p> <br></br> </div>
@@ -52,21 +54,15 @@ export default function Motion() {
                 <p class = "portfolio-body"> Animated logo for clothing brand LIANG. The Chinese symbol for LIANG (亮, meaning light) was used in the logo and the theme of light resonates throughout the animation in the form of bright orange bulbs. The fast forward symbol is displayed in the beginning the reiterate the tagline 'fashion forward'.</p>
                 </div>
             </div>
+            </div>
 
             <div class = "packaging-container">
                  <div class = "grid grid-cols-1 all-image">
                 <img src={liang} alt={"liang-full"}/>
             </div>
             </div>
-            </div>
-
- <div class = "grid grid-cols-1 md:grid-cols-2 motion-container">
-        <div class = "packaging-container">
-                 <div class = "grid grid-cols-1 all-image">
-                <img src={geneai} alt={"geneai-full"}/>
-            </div>
-        </div>
-
+           
+            <div class = "grid grid-cols-1">
         <div class = "portfolio-description m-auto">
                 <div class = "grid grid-cols-2">
                 <div><p class = "portfolio-card-title">GENE.AI ANIMATED LOGO</p> <br></br> </div>
@@ -77,6 +73,12 @@ export default function Motion() {
                 </div>
         </div>
     </div>
+
+        <div class = "packaging-container">
+                 <div class = "grid grid-cols-1 all-image">
+                <img src={geneai} alt={"geneai-full"}/>
+            </div>
+        </div>
 
     
     <div class = "portfolio-description m-auto ">
@@ -107,7 +109,14 @@ export default function Motion() {
             <div class = "grid grid-cols-1 all-image">
                 <img src={lucciolaui} alt={"lucciola-full"} style = {{padding: 50}}/>
             </div>
-        </div>   
+            </div>  
+
+            <div class = "navigation-portfolios grid grid-cols-3" style = {{marginTop:-15}}>
+           <div> <Link to ="./"> <button class = "pnav-button" style = {{marginRight: 30}}> HOME </button> </Link>  </div>
+           <div> <Link to ="./packaging"> <button class = "pnav-button" style = {{marginRight: 30}}> PACKAGING </button> </Link>  </div>
+           <div> <Link to ="./webdev"> <button class = "pnav-button" style = {{marginRight: 30}}> DEVELOPMENT </button> </Link>  </div>
+           </div>
+
   </div>
  )
 }
