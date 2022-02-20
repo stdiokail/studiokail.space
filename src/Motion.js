@@ -8,6 +8,9 @@ import aawebdev from './dynamic/aawebdev.gif'
 import aamotion from './dynamic/aamotion.gif'
 import aapackaging from './dynamic/aapackaging.gif'
 import lucciolaui from './imgportfolio/motion/lucciolaui.gif'
+import studiokail1 from './imgportfolio/motion/studiokail1.gif'
+import studiokail2 from './imgportfolio/motion/studiokail2.gif'
+import studiokail3 from './imgportfolio/motion/studiokail3.gif'
 import ReactPlayer from 'react-player'
 import { HashRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
@@ -110,6 +113,32 @@ export default function Motion() {
                 <img src={lucciolaui} alt={"lucciola-full"} style = {{padding: 50}}/>
             </div>
             </div>  
+
+            <div class = "portfolio-description m-auto">
+                <div class = "grid grid-cols-2">
+                <div><p class = "portfolio-card-title"> STUDIO KA • IL : Motion Logo (Long Ver.) </p> <br></br> </div>
+                <a class = "ylink-container" href = "https://www.youtube.com/watch?v=-pBEmgjzO8I">  
+                <img src={youtuben} alt={"youtube"} class = {"youtube-link"}/> 
+                </a>
+                </div>
+                <div class = "grid grid-cols-1">
+                <p class = "portfolio-body"> Logo Reveal for STUDIO KA IL, utilising simple shapes in sharp movements in line with the choppy music, this video serves as an introduction to the studio Youtube page.</p>
+                </div>
+         </div>
+
+         <div class = "grid grid-cols-1 md:grid-cols-3 all-image">
+            <img src={studiokail1} alt={"studiokail-preview"} style = {{padding: 50}}></img>
+            <img src={studiokail2} alt={"studiokail-preview"} style = {{padding: 50}}></img>
+            <img src={studiokail3} alt={"studiokail-preview"} style = {{padding: 50}}></img>
+            </div>
+
+            <div class = "player-wrapper">
+                <ReactPlayer url= 'https://www.youtube.com/watch?v=-pBEmgjzO8I'
+                width = '100%'
+                height = '100%'
+                />
+            </div>
+
 
             <div class = "navigation-portfolios grid grid-cols-3" style = {{marginTop:-15}}>
            <div> <Link to ="./"> <button class = "pnav-button" style = {{marginRight: 30}}> HOME </button> </Link>  </div>

@@ -4,6 +4,7 @@ import Home from './Home';
 import Packaging from './Packaging'
 import Motion from './Motion'
 import WebDev from './WebDev'
+import ScrollToTop from './ScrollToTop';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
               </div>
             </div>
           </nav>
+          <ScrollToTop />
             <Switch>
               <Route exact path ='/'>
                   < Home />

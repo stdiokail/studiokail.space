@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1c256dc8.css",
-    "main.js": "/static/js/main.6e58930f.js",
+    "main.js": "/static/js/main.12abc8be.js",
     "static/js/787.e701854e.chunk.js": "/static/js/787.e701854e.chunk.js",
     "static/media/lucciola2.png": "/static/media/lucciola2.f8896b305c03027d0f8f.png",
     "static/media/lucciolaui.gif": "/static/media/lucciolaui.10c6b6aec4b7783a1cad.gif",
@@ -19,8 +19,11 @@
     "static/media/woodco3.png": "/static/media/woodco3.e1ceab14d90f1d09456e.png",
     "static/media/geneai.gif": "/static/media/geneai.6402683c5fc59b3a1515.gif",
     "static/media/woodco2.png": "/static/media/woodco2.6afb7e0ff7effe7af93c.png",
+    "static/media/studiokail3.gif": "/static/media/studiokail3.9b53a556bad8574547e2.gif",
     "static/media/no92.png": "/static/media/no92.44c6d2e9b272275fbedc.png",
     "static/media/liang.gif": "/static/media/liang.660c95f6bca2301acafa.gif",
+    "static/media/studiokail2.gif": "/static/media/studiokail2.f3a6cfdce347823e2437.gif",
+    "static/media/studiokail1.gif": "/static/media/studiokail1.3cbfa8d9c61c22cf8a25.gif",
     "static/media/packaging.svg": "/static/media/packaging.3314afdfab75b159200df03f1772e4b0.svg",
     "static/media/logo-banner.svg": "/static/media/logo-banner.03c3b86a37e024ce5726b254b93874e7.svg",
     "static/media/webdev.svg": "/static/media/webdev.50445b7cfba410966a9f4105f5f42a53.svg",
@@ -32,11 +35,11 @@
     "static/media/youtuben.svg": "/static/media/youtuben.8833dcbb14d002f61d07b9e87b4f932e.svg",
     "index.html": "/index.html",
     "main.1c256dc8.css.map": "/static/css/main.1c256dc8.css.map",
-    "main.6e58930f.js.map": "/static/js/main.6e58930f.js.map",
+    "main.12abc8be.js.map": "/static/js/main.12abc8be.js.map",
     "787.e701854e.chunk.js.map": "/static/js/787.e701854e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c256dc8.css",
-    "static/js/main.6e58930f.js"
+    "static/js/main.12abc8be.js"
   ]
 }
