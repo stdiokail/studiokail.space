@@ -10,7 +10,6 @@ import aawebdev from './dynamic/aawebdev.gif'
 import aamotion from './dynamic/aamotion.gif'
 import aapackaging from './dynamic/aapackaging.gif'
 import PortfolioLinks from './PortfolioLinks.js'
-import { HashRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 
 export default function App() {
