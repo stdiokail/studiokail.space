@@ -40,7 +40,7 @@ export default function App() {
   </div>
   <PortfolioLinks text = "PACKAGING" static = {packaging} dynamic = {aapackaging} linkname = {"./Packaging"}/>
   <PortfolioLinks text = "MOTION" static = {motion} dynamic = {aamotion} linkname = {"./Motion"}/>
-  <PortfolioLinks text = "WEB DEVELOPMENT" static = {webdev} dynamic = {aawebdev} linkname = {"./WebDev"}/>
+  <PortfolioLinks text = "WEB DESIGN" static = {webdev} dynamic = {aawebdev} linkname = {"./WebDev"}/>
 </div>
 </div>
   )

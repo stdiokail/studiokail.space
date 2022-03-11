@@ -165,7 +165,17 @@ opacity: 0;
   padding: 50px;
   font-family: 'Raleway', sans-serif;
   color: white;
-  max-width: 500px;
+  width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.50) 0px 3px 12px;
+}
+
+.web-portfolio-description {
+  background-color: #333333;
+  padding: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  width: 100%;
+  max-width: 700px;
   box-shadow: rgba(0, 0, 0, 0.50) 0px 3px 12px;
 }
 
@@ -174,10 +184,31 @@ opacity: 0;
   padding-top: 12px;
 }
 
+.web-portfolio-body {
+  border-top: 1px solid white;
+  margin-top: 5%;
+  padding-top: 5%
+}
+
+.text-indented {
+  padding-left: 12%;
+}
+
+
+
 .youtube-link {
 height: 45px;
 float: right;
 transition-duration: 0.4s;
+}
+
+.web-link {
+  transition-duration: 0.4s;
+  width: 100px;
+}
+
+.web-link:hover {
+  opacity: 0.2;
 }
 
 
@@ -190,6 +221,12 @@ transition-duration: 0.4s;
   border-bottom: 1px solid white;
   padding-bottom: 11px;
   text-align: left;
+}
+
+.web-portfolio-card-title {
+  font-size: 20px;
+  padding-top:5%;
+  text-align: center;
 }
 
 .player-wrapper {
