@@ -22,7 +22,9 @@ export default function App() {
 
     <div class = "description mx-12">
       <p> 
-      Studio KA • IL is a one-woman run graphic design and web development studio based in London, United Kingdom. Founded in 2019, the studio now boasts an international client base ranging from small / medium business to large-scale artwork re-sellers. To view samples of my work, please use the portfolio links on this website or browse through any of my online showcases. Please do not hesitate to get in touch for any queries.        </p>
+      London-based graphic design and web development studio. <br/><br/>
+      
+      Established in 2019.   </p>
     </div>
 
 
