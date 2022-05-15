@@ -25,7 +25,6 @@ export default function Packaging() {
         </div>
 
         <div class = "packaging-container">
-
             <div class = "portfolio-description m-auto">
                 <div class = "grid grid-cols-1">
                 <p class = "portfolio-card-title">WOODCO</p> <br></br>
@@ -35,6 +34,8 @@ export default function Packaging() {
                 </div>
             </div>
         </div>
+
+        
         <div class = "packaging-container">
             <div class = "grid grid-cols-1 all-image">
                 <img src={woodco1} alt={"woodco-full"} style = {{padding: 50}}/>
@@ -45,6 +46,7 @@ export default function Packaging() {
                 <img src={woodco3} alt={"woodco-full"} style = {{padding: 50}}/>
             </div>
 
+            <div class = "packaging-container">
             <div class = "portfolio-description m-auto">
                 <div class = "grid grid-cols-1">
                 <p class = "portfolio-card-title">LUCCIOLA</p> <br></br>
@@ -53,6 +55,8 @@ export default function Packaging() {
                 <p class = "portfolio-body"> A branding project for pasta delivery service, LUCCIOLA.  The focus lays on a sharp contrasts of colours and detailed hand-drawn illustrations. The logo and website were also designed in this project.</p>
                 </div>
             </div>
+            </div>
+
             <div class = "packaging-container">
             <div class = "grid grid-cols-1 all-image">
                 <img src={lucciola1} alt={"c-full"} style = {{padding: 50}}/>
@@ -63,7 +67,7 @@ export default function Packaging() {
                 <img src={lucciola3} alt={"lucciola-full"} style = {{padding: 50}}/>
             </div>
 
-
+            <div class = "packaging-container">
            <div class = "portfolio-description m-auto">
                 <div class = "grid grid-cols-1">
                 <p class = "portfolio-card-title">LIANG</p> <br></br>
@@ -71,6 +75,7 @@ export default function Packaging() {
                 <div class = "grid grid-cols-1">
                 <p class = "portfolio-body"> A branding project for clothing brand LIANG. The Chinese symbol for LIANG (亮, meaning light) was used in the logo.  The project was intended to have a modern feel, with a sophisticated palette and minimal geometric elements. The project also included logo animation and box packaging.</p>
                 </div>
+            </div>
             </div>
 
             <div class = "packaging-container">
@@ -83,6 +88,7 @@ export default function Packaging() {
                 <img src={liang3} alt={"liang-full"} style = {{padding: 50}}/>
         </div>
 
+        <div class = "packaging-container">
         <div class = "portfolio-description m-auto">
                 <div class = "grid grid-cols-1">
                 <p class = "portfolio-card-title">NO.9 GRAPEFRUIT</p> <br></br>
@@ -90,6 +96,7 @@ export default function Packaging() {
                 <div class = "grid grid-cols-1">
                 <p class = "portfolio-body"> Logo design and interior + exterior packaging artwork for candle branding project,  NO.9. The branding focused on a whimsical feel and was complemented by bright, fun colours and simplistic illustrations.</p>
                 </div>
+            </div>
             </div>
 
             <div class = "packaging-container">

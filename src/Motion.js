@@ -28,7 +28,7 @@ export default function Motion() {
             <img src={logobanner} alt={"logo"} style = {{height: 300}} class = "center"/> 
             </div>
         </div>
-
+        <div class = "packaging-container">
         <div class = "portfolio-description m-auto">
                 <div class = "grid grid-cols-2">
                 <div><p class = "portfolio-card-title">WELL_LAB INTRO VIDEO</p> <br></br> </div>
@@ -38,6 +38,8 @@ export default function Motion() {
                 <p class = "portfolio-body"> An introductory video for UK-based organisation established to tackle burnout in the workplace, this video employs abstract shapes to represent people as well as illustrate well_lab's approach to combatting burnout. You can also check out the organisation <a href="https://www.well-lab.co.uk/" target="_blank"> here. </a></p>
                 </div>
         </div>
+        </div>
+
         <div class = "grid grid-cols-1 md:grid-cols-2 all-image">
                 <img src={wl1} alt={"well-lab-motion"} style = {{padding: 50}}/>
                 <img src={wl3} alt={"well-lab-motion"} style = {{padding: 50}}/>
@@ -55,6 +57,7 @@ export default function Motion() {
 
 
 
+        <div class = "packaging-container">
         <div class = "portfolio-description m-auto">
                 <div class = "grid grid-cols-2">
                 <div><p class = "portfolio-card-title">GEOMETRIC SHORT</p> <br></br> </div>
@@ -63,6 +66,7 @@ export default function Motion() {
                 <div class = "grid grid-cols-1">
                 <p class = "portfolio-body"> Employing simple, abstract shapes - this Motion Short acts as an opening to the studio Youtube channel. The video encompasses easy-listening background music with the focus being on smooth-transitioning geometric shapes following the beat of the music.</p>
                 </div>
+        </div>
         </div>
         <div class = "grid grid-cols-1 md:grid-cols-2 all-image">
                 <img src={geo1} alt={"geometric-motion"} style = {{padding: 50}}/>
@@ -78,7 +82,7 @@ export default function Motion() {
             </div>
 
 
-       <div class = "grid grid-cols-1" >
+        <div class = "packaging-container">
             <div class = "portfolio-description m-auto">
                 <div class = "grid grid-cols-2">
                 <div><p class = "portfolio-card-title">LIANG ANIMATED LOGO</p> <br></br> </div>
@@ -96,7 +100,7 @@ export default function Motion() {
             </div>
             </div>
            
-            <div class = "grid grid-cols-1">
+            <div class = "packaging-container">
         <div class = "portfolio-description m-auto">
                 <div class = "grid grid-cols-2">
                 <div><p class = "portfolio-card-title">GENE.AI ANIMATED LOGO</p> <br></br> </div>
@@ -115,6 +119,7 @@ export default function Motion() {
         </div>
 
     
+    <div class = "packaging-container">
     <div class = "portfolio-description m-auto ">
                 <div class = "grid grid-cols-1">
                 <p class = "portfolio-card-title">CUSTOM ICONS </p> <br></br>
@@ -123,6 +128,7 @@ export default function Motion() {
                 <p class = "portfolio-body"> A set of three custom animated icons are showcased on the homepage of this website, maintaining the brand colours and image.</p>
                 </div>
             </div>
+            </div>
 
             <div class = "grid grid-cols-1 md:grid-cols-3 all-image">
             <img src={aamotion} alt={"motion-icon"} style = {{padding: 50}}></img>
@@ -130,6 +136,7 @@ export default function Motion() {
             <img src={aawebdev} alt={"webdev-icon"} style = {{padding: 50}}></img>
             </div>
 
+            <div class = "packaging-container">
             <div class = "portfolio-description m-auto ">
                 <div class = "grid grid-cols-1">
                 <p class = "portfolio-card-title">LUCCIOLA APP CONCEPT </p> <br></br>
@@ -138,6 +145,7 @@ export default function Motion() {
                 <p class = "portfolio-body"> As a full-user interface project, an animated demo was prepared to showcase the pasta delivery app service, Lucciola. This included a demo of the app's user interface, comprising of custom icon animations as well as the packaging design showcased in the packaging portfolio.</p>
                 </div>
             </div>
+            </div>
 
             <div class = "packaging-container">
             <div class = "grid grid-cols-1 all-image">
@@ -145,6 +153,7 @@ export default function Motion() {
             </div>
             </div>  
 
+            <div class = "packaging-container">
             <div class = "portfolio-description m-auto">
                 <div class = "grid grid-cols-2">
                 <div><p class = "portfolio-card-title"> STUDIO KA • IL : Motion Logo (Long Ver.) </p> <br></br> </div>
@@ -155,6 +164,7 @@ export default function Motion() {
                 <div class = "grid grid-cols-1">
                 <p class = "portfolio-body"> Logo Reveal for STUDIO KA IL, utilising simple shapes in sharp movements in line with the choppy music, this video serves as an introduction to the studio Youtube page.</p>
                 </div>
+         </div>
          </div>
 
          <div class = "grid grid-cols-1 md:grid-cols-3 all-image">
