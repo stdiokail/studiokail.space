@@ -2,6 +2,10 @@ import logobanner from './static/logo-banner.svg'
 import youtuben from './static/youtuben.svg'
 import geo1 from './imgportfolio/motion/geo1.gif'
 import geo2 from './imgportfolio/motion/geo1.gif'
+import wl1 from './imgportfolio/motion/wl1.gif'
+import wl2 from './imgportfolio/motion/wl2.gif'
+import wl3 from './imgportfolio/motion/wl3.gif'
+import wl4 from './imgportfolio/motion/wl4.gif'
 import liang from './imgportfolio/motion/liang.gif'
 import geneai from './imgportfolio/motion/geneai.gif'
 import aawebdev from './dynamic/aawebdev.gif'
@@ -27,6 +31,32 @@ export default function Motion() {
 
         <div class = "portfolio-description m-auto">
                 <div class = "grid grid-cols-2">
+                <div><p class = "portfolio-card-title">WELL_LAB INTRO VIDEO</p> <br></br> </div>
+                <div class = "ylink-container">  <img src={youtuben} alt={"youtube"} class = {"youtube-link"} onClick={(e) => {e.preventDefault(); window.open('https://www.youtube.com/watch?v=aNupxVXAqjo');}}/> </div>
+                </div>
+                <div class = "grid grid-cols-1">
+                <p class = "portfolio-body"> An introductory video for UK-based organisation established to tackle burnout in the workplace, this video employs abstract shapes to represent people as well as illustrate well_lab's approach to combatting burnout. You can also check out the organisation <a href="https://www.well-lab.co.uk/" target="_blank"> here. </a></p>
+                </div>
+        </div>
+        <div class = "grid grid-cols-1 md:grid-cols-2 all-image">
+                <img src={wl1} alt={"well-lab-motion"} style = {{padding: 50}}/>
+                <img src={wl3} alt={"well-lab-motion"} style = {{padding: 50}}/>
+                <img src={wl4} alt={"well-lab-motion"} style = {{padding: 50}}/>
+                <img src={wl2} alt={"well-lab-motion"} style = {{padding: 50}}/>
+            </div>
+
+
+            <div class = "player-wrapper">
+                <ReactPlayer url= 'https://www.youtube.com/watch?v=aNupxVXAqjo'
+                width = '100%'
+                height = '100%'
+                />
+            </div>
+
+
+
+        <div class = "portfolio-description m-auto">
+                <div class = "grid grid-cols-2">
                 <div><p class = "portfolio-card-title">GEOMETRIC SHORT</p> <br></br> </div>
                 <div class = "ylink-container">  <img src={youtuben} alt={"youtube"} class = {"youtube-link"} onClick={(e) => {e.preventDefault(); window.open('https://www.youtube.com/watch?v=E1lDvWBNlKM');}}/> </div>
                 </div>
@@ -46,6 +76,7 @@ export default function Motion() {
                 height = '100%'
                 />
             </div>
+
 
        <div class = "grid grid-cols-1" >
             <div class = "portfolio-description m-auto">
