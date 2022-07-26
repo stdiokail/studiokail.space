@@ -30,7 +30,7 @@ export default function Packaging() {
                 <p class = "portfolio-card-title">WOODCO</p> <br></br>
                 </div>
                 <div class = "grid grid-cols-1">
-                <p class = "portfolio-body"> A set of 6 interior and exterior candle packaging designs made in collaboration with Hong Kong based candle-makers, WOODCO. During the initial stages of the project, it was decided that the packaging would be very minimally designed, with the focus being on a contrasting selection of colours and large, flat shapes.</p>
+                <p class = "portfolio-body"> A set of 6 interior and exterior candle packaging designs made in collaboration with Hong Kong based candle-makers, WOODCO. During the initial stages of the project, it was decided that the packaging would be very minimally designed, with the focus being on a contrasting selection of colours and large, flat shapes. You can find the printed versions on sale at the brand's website <a href="https://www.thisiswoodco.com/" target="_blank"> here. </a> </p>
                 </div>
             </div>
         </div>

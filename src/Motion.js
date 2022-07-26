@@ -153,32 +153,9 @@ export default function Motion() {
             </div>
             </div>  
 
-            <div class = "packaging-container">
-            <div class = "portfolio-description m-auto">
-                <div class = "grid grid-cols-2">
-                <div><p class = "portfolio-card-title"> STUDIO KA • IL : Motion Logo (Long Ver.) </p> <br></br> </div>
-                <a class = "ylink-container" href = "https://www.youtube.com/watch?v=-pBEmgjzO8I">  
-                <img src={youtuben} alt={"youtube"} class = {"youtube-link"}/> 
-                </a>
-                </div>
-                <div class = "grid grid-cols-1">
-                <p class = "portfolio-body"> Logo Reveal for STUDIO KA IL, utilising simple shapes in sharp movements in line with the choppy music, this video serves as an introduction to the studio Youtube page.</p>
-                </div>
-         </div>
-         </div>
 
-         <div class = "grid grid-cols-1 md:grid-cols-3 all-image">
-            <img src={studiokail1} alt={"studiokail-preview"} style = {{padding: 50}}></img>
-            <img src={studiokail2} alt={"studiokail-preview"} style = {{padding: 50}}></img>
-            <img src={studiokail3} alt={"studiokail-preview"} style = {{padding: 50}}></img>
-            </div>
 
-            <div class = "player-wrapper">
-                <ReactPlayer url= 'https://www.youtube.com/watch?v=-pBEmgjzO8I'
-                width = '100%'
-                height = '100%'
-                />
-            </div>
+
 
 
             <div class = "navigation-portfolios grid grid-cols-3" style = {{marginTop:-15}}>
