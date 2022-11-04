@@ -1,0 +1,181 @@
+
+body {
+    background-color: #333333;
+    overflow: auto;
+  }
+
+.fadeOut {
+    background-color: 333333;
+    box-shadow: 0px 0px 25px 7px rgba(0, 0, 0, 0.5);
+    width: 50vw;
+    min-width: 300px;
+    max-width: 400px;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+    border-radius: 8px;
+    height: 55%;
+    min-height: 430px;
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.intro-card {
+    background-color: 333333;
+    box-shadow: 0px 0px 25px 7px rgba(0, 0, 0, 0.5);
+    width: 50vw;
+    min-width: 300px;
+    max-width: 400px;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+    border-radius: 8px;
+    height: 55%;
+    min-height: 550px;
+    opacity: 1;
+
+}
+
+.intro-card-2 {
+    background-color: #F6F2EE;
+    box-shadow: 0px 0px 25px 7px rgba(0, 0, 0, 0.8);
+    width: 50vw;
+    min-width: 300px;
+    max-width: 400px;
+    height: 80%;
+    min-height: 700px;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    position: absolute;
+    border-radius: 8px;
+    transition-duration: 1s;
+    opacity: 1;
+}
+
+.intro-logo {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    fill: #F6F2EE;
+}
+
+.intro-logo-2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    fill: #333333;
+    transition-duration: 1s;
+}
+
+.main-btn {
+    border: solid 0.7px #F6F2EE;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    color: #F6F2EE;
+    font-weight: 200;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-btn:hover {
+    background-color: #F6F2EE;
+    color: #333333;
+    transition-duration: 1s;
+    font-weight: 300;
+}
+
+.main-btn-2 {
+    display: none;
+}
+
+.icons-wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.icons-wrapper-2 {
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: 0.5s;
+}
+
+.icons {
+    fill: #F6F2EE;
+    border: solid 0.7px #F6F2EE;
+    border-radius: 3px;
+    margin: 15%;
+    padding: 10%;
+}
+
+.icons-black {
+    fill: #333333;
+    border: solid 1px #333333;
+    border-radius: 8px;
+    margin: 15%;
+    padding: 10%;
+    transition-duration: 1s;
+}
+
+.icons-black:hover {
+    fill: #F6F2EE;
+    border: solid 1px #F6F2EE;
+    background-color: #333333;
+    border-radius: 8px;
+    margin: 5%;
+    padding: 10%;
+    transition-duration: 1s;
+}
+
+.icons:hover {
+    background-color: #F6F2EE;
+    fill: #333333;
+    transition-duration: 1s;
+}
+
+
+.portfolio-links {
+    opacity: 1;
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    color: #333333;
+    font-weight: 300;
+    border-top: solid 1px #333333;
+    padding: 2%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+    overflow: auto; 
+}
+
+.portfolio-links:hover {
+    background-color: #333333;
+    color: #F6F2EE;
+    transition-duration: 1s;
+}
+
+.hidden {
+    display: hidden;
+}
+
+.links-list {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-bottom: solid 1px #333333;
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
