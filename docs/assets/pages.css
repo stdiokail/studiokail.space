@@ -252,8 +252,7 @@ body {
 }
 
 .text-indented {
-  padding-left: 12%;
-  text-align: left;
+  padding-left: 9%;
 }
 
 @keyframes slideInFromTop {
