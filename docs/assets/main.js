@@ -11,6 +11,24 @@
     document.getElementById('links').classList.remove("hidden");
 }
 
+function backgroundMouseover1()   {
+
+    document.getElementById('body').setAttribute("class", "body-active");
+
+}
+
+function backgroundMouseover2()   {
+
+    document.getElementById('body').setAttribute("class", "body-active2");
+
+}
+
+function backgroundMouseout()   {
+
+    document.getElementById('body').setAttribute("class", "body");
+
+}
+
 
 function reDirectMotion()   {
 
@@ -26,6 +44,7 @@ function reDirectWeb()   {
     setTimeout("location.href = './web.html';",1000);
 
 }
+
 
 
 function reDirectPackaging()   {
