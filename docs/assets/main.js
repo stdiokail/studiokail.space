@@ -11,17 +11,12 @@
     document.getElementById('links').classList.remove("hidden");
 }
 
-function backgroundMouseover1()   {
+function backgroundMouseover()   {
 
     document.getElementById('body').setAttribute("class", "body-active");
 
 }
 
-function backgroundMouseover2()   {
-
-    document.getElementById('body').setAttribute("class", "body-active2");
-
-}
 
 function backgroundMouseout()   {
 

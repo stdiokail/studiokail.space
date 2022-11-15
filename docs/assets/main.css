@@ -6,31 +6,15 @@ html {
  body {
     background-color: #333333;
     overflow: auto;
-    background-image: url("./img/init-background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition-duration: 0.7s;
-   
-  }
-
-  .body-active {
-    background-color: #333333;
-    overflow: auto;
-    background-image: url("./img/background1.png");
+    background-blend-mode: luminosity;
     background-size: cover;
     background-repeat: no-repeat;
     transition-duration: 0.7s;
   }
 
-  .body-active2 {
-    background-color: #333333;
-    overflow: auto;
-    background-image: url("./img/background2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition-duration: 0.7s;
-  }
-
+.body-active {
+    background-blend-mode: normal;
+}
 
 .fadeOut {
     background-color: 333333;
