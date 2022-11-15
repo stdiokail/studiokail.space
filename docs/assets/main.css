@@ -4,7 +4,7 @@ html {
  }
  
  body {
-    background-color: #07abef;
+    background-color:#07abef;
     overflow: auto;
     background-blend-mode: multiply;
     background-image: url("./img/background.jpg");
@@ -13,8 +13,36 @@ html {
     transition-duration: 1.5s;
   }
 
-.body-active {
+.body-yellow {
     background-color: #fffc00;
+    transition-duration: 1.5s;
+}
+
+
+.body-red {
+    background-color: #a84646;
+    transition-duration: 1.5s;
+}
+
+
+.body-pink {
+    background-color: orange;
+    transition-duration: 1.5s;
+}
+
+
+.body-navy {
+    background-color: #3a5be6;
+    transition-duration: 1.5s;
+}
+
+.body-green {
+    background-color: #3aa168;
+    transition-duration: 1.5s;
+}
+
+.body-purple {
+    background-color: lightsalmon;
     transition-duration: 1.5s;
 }
 

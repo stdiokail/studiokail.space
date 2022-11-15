@@ -11,12 +11,41 @@
     document.getElementById('links').classList.remove("hidden");
 }
 
-function backgroundMouseover()   {
+function backgroundMouseoverPortfolio()   {
 
-    document.getElementById('body').setAttribute("class", "body-active");
+    document.getElementById('body').setAttribute("class", "body-yellow");
 
 }
 
+function backgroundMouseoverBehance()   {
+
+    document.getElementById('body').setAttribute("class", "body-navy");
+
+}
+
+function backgroundMouseoverYoutube()   {
+
+    document.getElementById('body').setAttribute("class", "body-red");
+
+}
+
+function backgroundMouseoverInstagram()   {
+
+    document.getElementById('body').setAttribute("class", "body-pink");
+
+}
+
+function backgroundMouseoverDribbble()   {
+
+    document.getElementById('body').setAttribute("class", "body-purple");
+
+}
+
+function backgroundMouseoverFiverr()   {
+
+    document.getElementById('body').setAttribute("class", "body-green");
+
+}
 
 function backgroundMouseout()   {
 
