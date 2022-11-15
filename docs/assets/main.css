@@ -11,6 +11,7 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
     transition-duration: 1.5s;
+    animation: IntroFade 2s;
   }
 
 .body-yellow {
@@ -217,6 +218,15 @@ html {
     margin-bottom: 30px;
     border-bottom: solid 1px #333333;
 }
+
+@keyframes IntroFade {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color:#07abef;
+    }
+  }
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
