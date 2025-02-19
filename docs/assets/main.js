@@ -5,8 +5,7 @@
     document.getElementById('behance').setAttribute("class", "icons-black");
     document.getElementById('youtube').setAttribute("class", "icons-black");
     document.getElementById('instagram').setAttribute("class", "icons-black");
-    document.getElementById('dribbble').setAttribute("class", "icons-black");
-    document.getElementById('fiverr').setAttribute("class", "icons-black");    
+    document.getElementById('dribbble').setAttribute("class", "icons-black");   
     document.getElementById('iconsWrapper').setAttribute("class", "icons-wrapper-2");
     document.getElementById('links').classList.remove("hidden");
 }
